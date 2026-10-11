@@ -1,0 +1,241 @@
+{
+  "label": "DEMO calendar — synthetic / EXAMPLE only",
+  "source": "EXAMPLE / demo (embedded)",
+  "live": false,
+  "note": "Outlook connector needs admin approval — this week is fictional. No real private work dockets. Themes: conference sessions, kids sports practices, generic work meetings.",
+  "timezone": "America/New_York",
+  "week_start": "2026-10-12",
+  "locations": {
+    "home": { "id": "home", "name": "Millersville (home)", "lat": 39.0596, "lon": -76.6480 },
+    "office": { "id": "office", "name": "Pasadena (office)", "lat": 39.1371, "lon": -76.5177 },
+    "annapolis": { "id": "annapolis", "name": "Annapolis / St Mary's", "lat": 38.9784, "lon": -76.4922 },
+    "api": { "id": "api", "name": "API fields", "lat": 39.0500, "lon": -76.5200 },
+    "hornets": { "id": "hornets", "name": "Green Hornets field", "lat": 39.0800, "lon": -76.5800 },
+    "remote": { "id": "remote", "name": "Remote / video", "lat": null, "lon": null }
+  },
+  "travel_minutes": {
+    "home|office": 18,
+    "home|annapolis": 22,
+    "home|api": 20,
+    "home|hornets": 15,
+    "office|annapolis": 28,
+    "office|api": 16,
+    "office|hornets": 22,
+    "annapolis|api": 25,
+    "annapolis|hornets": 28,
+    "api|hornets": 18
+  },
+  "buffer_minutes": 10,
+  "events": [
+    {
+      "id": "e01",
+      "title": "EXAMPLE · Standup (ops)",
+      "calendar": "Work",
+      "category": "work",
+      "location_id": "remote",
+      "start": "2026-10-12T09:00:00",
+      "end": "2026-10-12T09:30:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e02",
+      "title": "EXAMPLE · NCBA session 1: AI ops panel",
+      "calendar": "Conference",
+      "category": "conference",
+      "location_id": "remote",
+      "start": "2026-10-12T10:00:00",
+      "end": "2026-10-12T11:15:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e03",
+      "title": "EXAMPLE · Vendor intro call",
+      "calendar": "Work",
+      "category": "work",
+      "location_id": "remote",
+      "start": "2026-10-12T10:30:00",
+      "end": "2026-10-12T11:00:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e04",
+      "title": "EXAMPLE · Vic API practice",
+      "calendar": "Sports",
+      "category": "sports",
+      "location_id": "api",
+      "start": "2026-10-12T17:00:00",
+      "end": "2026-10-12T18:30:00",
+      "who": ["Vic", "Boyd"]
+    },
+    {
+      "id": "e05",
+      "title": "EXAMPLE · Office core hours block",
+      "calendar": "Work",
+      "category": "work",
+      "location_id": "office",
+      "start": "2026-10-12T14:00:00",
+      "end": "2026-10-12T16:45:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e06",
+      "title": "EXAMPLE · Char Aspire practice",
+      "calendar": "Sports",
+      "category": "sports",
+      "location_id": "annapolis",
+      "start": "2026-10-13T16:30:00",
+      "end": "2026-10-13T18:00:00",
+      "who": ["Char", "Boyd"]
+    },
+    {
+      "id": "e07",
+      "title": "EXAMPLE · Late client sync (generic)",
+      "calendar": "Work",
+      "category": "work",
+      "location_id": "office",
+      "start": "2026-10-13T15:45:00",
+      "end": "2026-10-13T16:30:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e08",
+      "title": "EXAMPLE · NCBA session 2: Collections tech",
+      "calendar": "Conference",
+      "category": "conference",
+      "location_id": "remote",
+      "start": "2026-10-14T09:00:00",
+      "end": "2026-10-14T10:30:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e09",
+      "title": "EXAMPLE · Team planning huddle",
+      "calendar": "Work",
+      "category": "work",
+      "location_id": "remote",
+      "start": "2026-10-14T09:45:00",
+      "end": "2026-10-14T10:15:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e10",
+      "title": "EXAMPLE · Ticket: Orioles watch (demo)",
+      "calendar": "Tickets",
+      "category": "ticket",
+      "location_id": "annapolis",
+      "start": "2026-10-14T18:30:00",
+      "end": "2026-10-14T21:30:00",
+      "who": ["Boyd", "Miranda"]
+    },
+    {
+      "id": "e11",
+      "title": "EXAMPLE · Vic Green Hornets practice",
+      "calendar": "Sports",
+      "category": "sports",
+      "location_id": "hornets",
+      "start": "2026-10-14T17:15:00",
+      "end": "2026-10-14T18:45:00",
+      "who": ["Vic", "Boyd"]
+    },
+    {
+      "id": "e12",
+      "title": "EXAMPLE · Char Aspire (Thu) @ St Mary's",
+      "calendar": "Sports",
+      "category": "sports",
+      "location_id": "annapolis",
+      "start": "2026-10-15T17:00:00",
+      "end": "2026-10-15T18:30:00",
+      "who": ["Char", "Boyd"]
+    },
+    {
+      "id": "e13",
+      "title": "EXAMPLE · Escape Room push window",
+      "calendar": "Personal",
+      "category": "personal",
+      "location_id": "home",
+      "start": "2026-10-15T16:41:00",
+      "end": "2026-10-15T17:41:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e14",
+      "title": "EXAMPLE · School pickup support",
+      "calendar": "Family",
+      "category": "family",
+      "location_id": "home",
+      "start": "2026-10-16T15:00:00",
+      "end": "2026-10-16T15:45:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e15",
+      "title": "EXAMPLE · Vic API practice",
+      "calendar": "Sports",
+      "category": "sports",
+      "location_id": "api",
+      "start": "2026-10-16T16:00:00",
+      "end": "2026-10-16T17:30:00",
+      "who": ["Vic", "Boyd"]
+    },
+    {
+      "id": "e16",
+      "title": "EXAMPLE · NCBA session 7 (overlap demo)",
+      "calendar": "Conference",
+      "category": "conference",
+      "location_id": "remote",
+      "start": "2026-10-16T16:00:00",
+      "end": "2026-10-16T17:00:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e17",
+      "title": "EXAMPLE · Family dinner block",
+      "calendar": "Family",
+      "category": "family",
+      "location_id": "home",
+      "start": "2026-10-17T18:00:00",
+      "end": "2026-10-17T19:00:00",
+      "who": ["Boyd", "Miranda", "Char", "Vic"]
+    },
+    {
+      "id": "e18",
+      "title": "EXAMPLE · Weekend Hornets scrimmage",
+      "calendar": "Sports",
+      "category": "sports",
+      "location_id": "hornets",
+      "start": "2026-10-18T09:00:00",
+      "end": "2026-10-18T10:30:00",
+      "who": ["Vic", "Boyd"]
+    },
+    {
+      "id": "e19",
+      "title": "EXAMPLE · NCBA session 8 recap",
+      "calendar": "Conference",
+      "category": "conference",
+      "location_id": "remote",
+      "start": "2026-10-18T09:30:00",
+      "end": "2026-10-18T10:30:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e20",
+      "title": "EXAMPLE · Office deep-work block",
+      "calendar": "Work",
+      "category": "work",
+      "location_id": "office",
+      "start": "2026-10-17T13:00:00",
+      "end": "2026-10-17T17:30:00",
+      "who": ["Boyd"]
+    },
+    {
+      "id": "e21",
+      "title": "EXAMPLE · Char Aspire Saturday",
+      "calendar": "Sports",
+      "category": "sports",
+      "location_id": "annapolis",
+      "start": "2026-10-17T16:45:00",
+      "end": "2026-10-17T18:15:00",
+      "who": ["Char", "Boyd"]
+    }
+  ]
+}
