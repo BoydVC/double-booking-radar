@@ -1,6 +1,6 @@
 # Double-Booking Radar
 
-Calendar conflict detector for the Boyd household (TokenMax burn-pool build). Surfaces **overlaps**, **travel-time squeezes** (Millersville ↔ Pasadena MD / Annapolis), and **ticket/event clashes**, then offers a **Pick one** card per conflict.
+Calendar conflict detector for the Rivera household (TokenMax burn-pool build). Surfaces **overlaps**, **travel-time squeezes** (Lakeside ↔ Pasadena MD / Annapolis), and **ticket/event clashes**, then offers a **Pick one** card per conflict.
 
 Uses a clearly labeled **DEMO / EXAMPLE** synthetic week — Outlook connector still needs Microsoft org admin approval, so no real private work dockets are loaded. Work items stay generic.
 
@@ -41,6 +41,6 @@ Nothing is sent. DEMO banner is always on. No KPD client matter names.
 
 ---
 ## Repo notes
-- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/double-booking-radar` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
